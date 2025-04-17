@@ -16,5 +16,5 @@ steps:
     - 'managed'
     - '--allow-unauthenticated'
 images:
-  - gcr.io/$PROJECT_ID/amazingapp:$COMMIT_SHA
+  - 'gcr.io/$PROJECT_ID/amazingapp:$COMMIT_SHA'
 logsBucket: gs://cloudrun-bucket1
